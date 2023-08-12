@@ -1,0 +1,16 @@
+{
+    "name": "innocen_bigega/php_native_router",
+    "description": "Native PHP router For Fast Routing",
+    "license": "MIT Liscence",
+    "autoload": {
+        "psr-4": {
+            "InnocenBigega\\PhpNativeRouter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Innocent Bigega"
+        }
+    ],
+    "require": {}
+}

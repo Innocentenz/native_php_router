@@ -4,7 +4,7 @@
     "license": "MIT Liscence",
     "autoload": {
         "psr-4": {
-            "InnocenBigega\\PhpNativeRouter\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [

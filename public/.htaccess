@@ -1,14 +1,13 @@
 DirectoryIndex index.php
-
-# enable the rewrite engine
+# Enable the rewrite engine
 RewriteEngine on
 
-#reset the rewritebase
+# Reset the RewriteBase
 RewriteBase /
 
-# folder delivery if it exists on the server
+# Folder Delivery If It Exists On The Server
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# push every request to to index.php
+# Push Every Request To index.php
 RewriteRule ^(.*)$ index.php [QSA]

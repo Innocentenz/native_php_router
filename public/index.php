@@ -12,6 +12,7 @@ $router->get('/', function (){ echo 'Home Page';});
 $router->get('/about', function(){echo 'About Us';});
 
 $router->addNotFoundHandler( function (){
-    echo 'Not Found';
+    $title = "Not Found!";
+    require_once __DIR__. '/../templates/404.phmtl';
 });
 $router->run();
